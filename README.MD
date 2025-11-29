@@ -19,7 +19,16 @@
 | DB2(B)  | GPIO 5 | Прерывания RFM95W |
 | DB3(B)  | GPIO 6 | Прерывания RFM95W |
 | DB4(B)  | GPIO 7 | Не используется |
-| D5(B) | GPIO 15 | ---- |
+| DB5(B) | GPIO 15 | ---- |
+| HSYNC | GPIO 16 | ---- |
+| VSYNC | GPIO 17 | U1TXD |
+| DE | GPIO 18 | U1RXD |
+| DB6(G) | GPIO 8 | ---- |
+| DB6(G) | GPIO 8 | ---- |
+| DB7(G) | GPIO 15 | ---- |
+| DB8(G) | GPIO 15 | ---- |
+| DB5(G) | GPIO 15 | ---- |
+| DB5(G) | GPIO 15 | ---- |
 | RST | GPIO 23 | Сброс RFM95W |
 | MISO | GPIO 19 |Линия данных RFM95W |
 | MOSI | GPIO 27 | Линия данных RFM95W  |
