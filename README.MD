@@ -15,40 +15,26 @@
 
 | Сигнальная цепь | Обозначение порта ESP32S3 | Примечание |
 |:------------------:|:-----:|:-----------------|
-| DB1(B) | GPIO 4 | Прерывания RFM95W |
-| DB2(B)  | GPIO 5 | Прерывания RFM95W |
-| DB3(B)  | GPIO 6 | Прерывания RFM95W |
-| DB4(B)  | GPIO 7 | Не используется |
+| DB1(B) | GPIO 4 | ---- |
+| DB2(B)  | GPIO 5 | ---- |
+| DB3(B)  | GPIO 6 | ---- |
+| DB4(B)  | GPIO 7 | ---- |
 | DB5(B) | GPIO 15 | ---- |
 | HSYNC | GPIO 16 | ---- |
 | VSYNC | GPIO 17 | U1TXD |
 | DE | GPIO 18 | U1RXD |
 | DB6(G) | GPIO 8 | ---- |
-| DB6(G) | GPIO 8 | ---- |
-| DB7(G) | GPIO 15 | ---- |
-| DB8(G) | GPIO 15 | ---- |
-| DB5(G) | GPIO 15 | ---- |
-| DB5(G) | GPIO 15 | ---- |
-| RST | GPIO 23 | Сброс RFM95W |
-| MISO | GPIO 19 |Линия данных RFM95W |
-| MOSI | GPIO 27 | Линия данных RFM95W  |
-| SCK | GPIO 5 | Clock SPI RFM95W  |
-| NSS | GPIO 18 | Chip select SPI RFM95W  |
-| BUSY | ---- | Не используется |
-| RXEN | ---- | Не используется |
-| TXEN | ---- | Не используется |
-| ---- | ---- | Не используется |
-| SDA | GPIO 21 | Интерфейс I2C |
-| SCK | GPIO 22 | Интерфейс I2C |
+| DB8(G) | GPIO3 |JTAG |
+| DB9(G) | IO46 | log |
+| DB10(G) | GPIO 9 | ---- |
 | ---- | ---- | ---- |
-| GPS_EN | GPIO 4 | Управление питанием GPS-модуля|
-| GPS_RX | GPIO 12 | вход приемника UART |
-| GPS_TX | GPIO 15 | выход передатчика UART |
+| DB11(G) | GPIO 10 | SPICS0 |
+| DB13(G) | GPIO 11 | SPID |
+| DB14(G) | GPIO 12 | SPICLK |
+| DB15(G) | GPIO 13 | SPIQ |
+| DB16(G) | GPIO 14 | ----|
 | ---- | ---- | ---- |
-| BUTTON_PIN | GPIO 39 | Кнопка выбора режимов работы |
-| BATTERY_PIN | GPIO 35 | Напряжение питания (резистивный делитель) |
-| EXT_PWR_DETECT | ---- | Не используется |
-| Monitor Pin | GPIO 25 |  |
-| LED_PIN | GPIO 2 | Синий светодиод |
-| BEEP | ---- | Не используется |
+| TX | GPIO 43 | U0TXD |
+| RX | GPIO 44 | U0RXD |
+
 
